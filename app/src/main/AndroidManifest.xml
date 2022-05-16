@@ -14,9 +14,20 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+        <!-- preserve -->
         <activity
             android:name=".preserve.PreserveArchiveOrg"
             android:label="Add to Archive.org">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <!-- view -->
+        <activity
+            android:name=".GoogleWebCache"
+            android:label="Google Web Cache">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
