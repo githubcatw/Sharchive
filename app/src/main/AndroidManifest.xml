@@ -17,7 +17,8 @@
         <!-- preserve -->
         <activity
             android:name=".preserve.PreserveArchiveOrg"
-            android:label="Add to Archive.org">
+            android:label="Add to Archive.org"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -27,7 +28,8 @@
         <!-- view -->
         <activity
             android:name=".GoogleWebCache"
-            android:label="Google Web Cache">
+            android:label="Google Web Cache"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -36,7 +38,8 @@
         </activity>
         <activity
             android:name=".ArchiveToday"
-            android:label="Archive.is">
+            android:label="Archive.is"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -45,7 +48,8 @@
         </activity>
         <activity
             android:name=".ArchiveOrg"
-            android:label="Archive.org">
+            android:label="Archive.org"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
