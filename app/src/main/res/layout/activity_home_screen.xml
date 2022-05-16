@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".HomeScreenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/home_screen_t1"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editTextURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textUri"
+        android:minHeight="48dp"
+        android:text="URL" />
+
+    <LinearLayout
+        android:id="@+id/providerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/home_screen_t2"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/orgButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/archive_org"
+            android:onClick="openArchive" />
+
+        <Button
+            android:id="@+id/aisButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/archive_is"
+            android:onClick="openArchive" />
+
+        <Button
+            android:id="@+id/gwcButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/google_web_cache"
+            android:onClick="openArchive" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/home_screen_t3"/>
+</LinearLayout>

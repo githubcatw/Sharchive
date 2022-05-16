@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sharchive</string>
+    <string name="home_screen_t1">First, type in or paste a URL.</string>
+    <string name="home_screen_t2">Select an archive site.</string>
+    <string name="home_screen_t3">Hint: you can also start this app by sharing a URL to it</string>
+    <string name="archive_org">Archive.org</string>
+    <string name="archive_is">Archive.is</string>
+    <string name="google_web_cache">Google Web Cache</string>
 </resources>

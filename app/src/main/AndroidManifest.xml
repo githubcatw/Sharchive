@@ -14,22 +14,29 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".HomeScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!-- preserve -->
         <activity
             android:name=".preserve.PreserveArchiveOrg"
-            android:label="Add to Archive.org"
-            android:exported="true">
+            android:exported="true"
+            android:label="Add to Archive.org">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
-        </activity>
-        <!-- view -->
+        </activity> <!-- view -->
         <activity
             android:name=".GoogleWebCache"
-            android:label="Google Web Cache"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/google_web_cache">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -38,8 +45,8 @@
         </activity>
         <activity
             android:name=".ArchiveToday"
-            android:label="Archive.is"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/archive_is">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -48,8 +55,8 @@
         </activity>
         <activity
             android:name=".ArchiveOrg"
-            android:label="Archive.org"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/archive_org">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
