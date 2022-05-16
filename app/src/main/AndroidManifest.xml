@@ -16,6 +16,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".HomeScreenActivity"
+            android:theme="@style/AppTheme.HomeBrowser"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.HomeBrowser" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#00000000</item>
+    </style>
+</resources>
