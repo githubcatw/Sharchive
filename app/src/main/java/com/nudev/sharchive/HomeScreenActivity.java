@@ -27,8 +27,10 @@ public class HomeScreenActivity extends AppCompatActivity {
             Toast.makeText(this, "Please enter a URL", Toast.LENGTH_SHORT).show();
             return;
         }
+        // Add http if necessary
+        if (!url.startsWith("http")) url = "http://" + url;
         // Return if entered text isn't a URL
-        if (!URLUtil.isValidUrl(url)) {
+        if (!URLUtil.isValidUrl(url) || !url.contains(".")) {
             Toast.makeText(this, "Not a URL", Toast.LENGTH_SHORT).show();
             return;
         }
