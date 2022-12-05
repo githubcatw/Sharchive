@@ -7,4 +7,7 @@
     <string name="archive_is">Archive.is</string>
     <string name="google_web_cache">Google Web Cache</string>
     <string name="archive_org_preserve">Add to Archive.org</string>
+    <string name="url">URL</string>
+    <string name="no_url">Please enter a URL</string>
+    <string name="not_a_url">Not a URL</string>
 </resources>

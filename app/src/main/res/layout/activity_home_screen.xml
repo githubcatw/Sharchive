@@ -14,10 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/home_screen_t1"
-        android:textColor="@android:color/black" />
+        android:text="@string/home_screen_t1"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editTextURL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +24,14 @@
         android:ems="10"
         android:inputType="textUri"
         android:minHeight="48dp"
-        android:text="URL" />
+        android:hint="@string/url">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
         android:id="@+id/providerLayout"
@@ -38,8 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/home_screen_t2"
-            android:textColor="@android:color/black" />
+            android:text="@string/home_screen_t2" />
 
         <Button
             android:id="@+id/orgButton"
