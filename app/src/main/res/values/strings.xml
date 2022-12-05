@@ -6,4 +6,5 @@
     <string name="archive_org">Archive.org</string>
     <string name="archive_is">Archive.is</string>
     <string name="google_web_cache">Google Web Cache</string>
+    <string name="archive_org_preserve">Add to Archive.org</string>
 </resources>

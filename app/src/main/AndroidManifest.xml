@@ -27,7 +27,7 @@
         <activity
             android:name=".preserve.PreserveArchiveOrg"
             android:exported="true"
-            android:label="Add to Archive.org">
+            android:label="@string/archive_org_preserve">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
