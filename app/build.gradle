@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "com.nudev.sharchive"
         minSdkVersion 19
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 100002
         versionName "1.1 beta"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
