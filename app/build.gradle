@@ -6,8 +6,8 @@ android {
         applicationId "com.nudev.sharchive"
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 100002
-        versionName "1.1 beta"
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
