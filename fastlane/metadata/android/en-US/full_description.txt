@@ -1,0 +1,1 @@
+<p><i>Sharchive</i> is a small app that allows you to view a webpage’s history in Archive.org (Wayback Machine) or Archive.is from the share menu. Also has an option to archive a page to Archive.org.</p><p>We are not affiliated with the Internet Archive or Archive.is.</p>
